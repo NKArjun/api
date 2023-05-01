@@ -23,7 +23,7 @@ const userSchema = new Schema({
     isSeller: {
         type: Boolean,
         default: false,
-        required: true
+        required: false
     },
     phoneNo: {
         type: String,
